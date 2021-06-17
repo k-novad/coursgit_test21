@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<h1>Bienvenue page.thml</h1>
+<p>Session test</p>
+<fieldset>
+<form action="validate.php" method="post">
+    <table>
+        <tr>
+            <td>
+                <label>Entrer le texte dans l'image</label>
+                <input name="captcha" type="text">
+                <img src="captcha.php" style="vertical-align: middle;"/>
+            </td>
+        </tr>
+        <tr>
+            <td><input name="submit" type="submit" value="Valider"></td>
+        </tr>
+    </table>
+</form>
+    <a href="page.html">Visitez-Nous</a>
+</fieldset>
 
 </body>
 </html>
